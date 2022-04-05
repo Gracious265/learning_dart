@@ -37,6 +37,8 @@ void main() {
 
   //mathematical operations in dart using imported module
   
-  print(min(1, 9));
+  print(min(1, 9)); // gets the minmum number
+  print(max(100,8)); // gets the maxmum number
+  print(sqrt(144)); // gets the square root
 
 }
