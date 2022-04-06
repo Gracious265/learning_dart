@@ -5,9 +5,9 @@ void main() {
 
   // Getting user input
   
-  print("What is your name?:");
-  String username = stdin.readLineSync()!;
-  print("Hello ${username}");
+  // print("What is your name?:");
+  // String username = stdin.readLineSync()!;
+  // print("Hello ${username}");
   
   //String greeting = "Hello";
   // learning more about strings.
@@ -53,5 +53,12 @@ void main() {
   //print(5 > 3);
   //print(5 == 1);
   //print(1 >= 8);
+
+  print("Enter first number: ");
+  String num1 = stdin.readLineSync()!;
+  print("Enter the second number: ");
+  String num2 = stdin.readLineSync()!;
+  //print(int.parse(num1) + int.parse(num2));
+  print(double.parse(num1) + double.parse(num2));
 
 }
