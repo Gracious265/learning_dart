@@ -54,27 +54,32 @@ void main() {
   //print(5 == 1);
   //print(1 >= 8);
 
-  print("Enter first number: ");
+  //print("Enter first number: ");
   //double num1 = double.parse(stdin.readLineSync()!);
   
-  print("Enter the second number: ");
+  //print("Enter the second number: ");
   ///double num2 = double.parse(stdin.readLineSync()!);
   //print(int.parse(num1) + int.parse(num2));
   //print(double.parse(num1) + double.parse(num2));
 
   //print(num1 + num2);
 
-  print("Enter a color: ");
+  //print("Enter a color: ");
   String color = stdin.readLineSync()!;
 
-  print("Enter a plural noun: ");
+  //print("Enter a plural noun: ");
   String pluralNoun = stdin.readLineSync()!;
 
-  print("Enter a celebrity: ");
+  //print("Enter a celebrity: ");
   String celebrity = stdin.readLineSync()!;
 
   print("Roses are ${color}");
-  print("${pluralNoun} are blue");
-  print("I love ${celebrity}");
+  //print("${pluralNoun} are blue");
+  //print("I love ${celebrity}");
+
+  List<int> favNums = [4, 8, 15, 23, 42];
+
+  print(favNums);
 
 }
+
