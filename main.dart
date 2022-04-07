@@ -1,6 +1,13 @@
 import "dart:math";
 import "dart:io";
 
+
+
+void drawTriangle(){
+  print("|-|");
+  print("|_|");
+}
+
 void main() {
 
   // Getting user input
@@ -65,21 +72,55 @@ void main() {
   //print(num1 + num2);
 
   //print("Enter a color: ");
-  String color = stdin.readLineSync()!;
+  //String color = stdin.readLineSync()!;
 
   //print("Enter a plural noun: ");
-  String pluralNoun = stdin.readLineSync()!;
+  //String pluralNoun = stdin.readLineSync()!;
 
   //print("Enter a celebrity: ");
-  String celebrity = stdin.readLineSync()!;
+  //String celebrity = stdin.readLineSync()!;
 
-  print("Roses are ${color}");
+  //print("Roses are ${color}");
   //print("${pluralNoun} are blue");
   //print("I love ${celebrity}");
 
+  // arrays
+
   List<int> favNums = [4, 8, 15, 23, 42];
 
+  List<String> fruits = ["mangoes", "bananas", "oranges"];
+
   print(favNums);
+  print(favNums.length);
+
+  favNums[3] = 17;
+
+  print(favNums);
+
+  print(favNums[0] + favNums[3]);
+
+  favNums.add(64);
+  
+  print(favNums);
+
+  favNums.remove(17);
+
+  print(favNums);
+
+  print(favNums.indexOf(15));
+  print(favNums.contains(64));
+
+  fruits.add("avocado");
+
+  
+  print(fruits.indexOf("avocado"));
+
+  drawTriangle();
+  drawTriangle();
+  drawTriangle();
+  drawTriangle();
+  
+
 
 }
 
