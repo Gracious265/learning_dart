@@ -3,9 +3,23 @@ import "dart:io";
 
 
 
-void drawTriangle(){
-  print("|-|");
-  print("|_|");
+//void drawTriangle(){
+  //print("|-|");
+  //print("|_|");
+//}
+
+//void sayHi(String username, int age){
+  //print("Hi ${username}!, you are ${age}");
+//}
+
+//double addNumbers(double num1, double num2){
+  //return num1 + num2;
+//}
+
+String prompt(String promptText){
+  print("The prompt is: ${promptText}");
+  String answer = stdin.readLineSync()!;
+  return answer;
 }
 
 void main() {
@@ -115,12 +129,20 @@ void main() {
   
   print(fruits.indexOf("avocado"));
 
-  drawTriangle();
-  drawTriangle();
-  drawTriangle();
-  drawTriangle();
-  
 
+  print("before func");
+
+  print("after func");
+
+  //double answer = addNumbers(8,2.3);
+  //print(answer);
+
+  String color = prompt("Enter a color: ");
+  String pluralNoun = prompt("Enter a plural noun: ");
+  String celebrity = prompt("Enter a celebrity: ");
+
+  print("The output is : ${color}, ${pluralNoun}, ${celebrity}");
+  
 
 }
 
