@@ -137,12 +137,21 @@ void main() {
   //double answer = addNumbers(8,2.3);
   //print(answer);
 
-  String color = prompt("Enter a color: ");
-  String pluralNoun = prompt("Enter a plural noun: ");
-  String celebrity = prompt("Enter a celebrity: ");
+  //String color = prompt("Enter a color: ");
+  //String pluralNoun = prompt("Enter a plural noun: ");
+  //String celebrity = prompt("Enter a celebrity: ");
 
-  print("The output is : ${color}, ${pluralNoun}, ${celebrity}");
+  //print("The output is : ${color}, ${pluralNoun}, ${celebrity}");
+
   
+  
+  var pass_rate = 100;
 
+  if (pass_rate >= 100 ) {
+    print("pass");
+  }else {
+    print("fail");
+  }
+  
 }
 
