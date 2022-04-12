@@ -145,7 +145,7 @@ void main() {
 
   
   
-  var pass_rate = 100;
+  var pass_rate = 10;
 
   if (pass_rate >= 100 ) {
     print("pass");
