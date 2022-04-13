@@ -145,13 +145,21 @@ void main() {
 
   
   
-  var pass_rate = 10;
+ bool isSmart = false;
 
-  if (pass_rate >= 100 ) {
-    print("pass");
-  }else {
-    print("fail");
+  if (isSmart) {
+    print("you are smart");
+  } else {
+    print("you need to study more!");
   }
-  
+
+
+  String greeting = "hello";
+
+  if (greeting.contains("e")){
+    print("greeting has e in it");
+  } else {
+    print("greeting has no");
+  }
 }
 
