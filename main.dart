@@ -145,9 +145,9 @@ void main() {
 
   
   
- bool isSmart = false;
+ bool isSmarter = false;
 
-  if (isSmart) {
+  if (isSmarter) {
     print("you are smart");
   } else {
     print("you need to study more!");
@@ -161,5 +161,29 @@ void main() {
   } else {
     print("greeting has no");
   }
+
+  // && both needs to be true
+  print(!true);
+  
+  bool isSmart = false;
+  bool isStudent = false;
+
+  if (isSmart && isStudent) {
+    print("You're a smart student!");
+  } else if (isSmart && !isStudent){
+    print("You are smart but not a student");
+  } else if (!isSmart && isStudent) {
+    print("You are not a smart student");
+  } else {
+    print("You are not smart and not a student");
+  }
+
+  // || atleast one has to be true.
+  //if (isSmart || isStudent) {
+  print("you're either smart or student or both");
+  
+  
+
+  
 }
 
