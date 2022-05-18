@@ -19,6 +19,7 @@ import "dart:io";
 String prompt(String promptText){
   print("The prompt is: ${promptText}");
   String answer = stdin.readLineSync()!;
+  
   return answer;
 }
 
@@ -26,9 +27,9 @@ void main() {
 
   // Getting user input
   
-  // print("What is your name?:");
-  // String username = stdin.readLineSync()!;
-  // print("Hello ${username}");
+  print("What is your name?:");
+  String username = stdin.readLineSync()!;
+  print("Hello ${username}");
   
   //String greeting = "Hello";
   // learning more about strings.
@@ -157,7 +158,7 @@ void main() {
   String greeting = "hello";
 
   if (greeting.contains("e")){
-    print("greeting has e in it");
+    print("greeting has e in it.");
   } else {
     print("greeting has no");
   }
